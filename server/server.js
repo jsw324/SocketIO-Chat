@@ -64,3 +64,9 @@ io.on('connection', (socket) => {
 server.listen(port, () => {
   console.log(`Server is up on ${port}`);
 });
+
+
+//possible features:
+//make chatrooms case insensitive...
+//make usernames unique
+//list of currently active chatrooms in a dropdown below login form.
